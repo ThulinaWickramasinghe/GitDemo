@@ -1,0 +1,24 @@
+{
+  "name": "git-session",
+  "version": "1.0.0",
+  "description": "",
+  "main": "a.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "lefthook install",
+    "format": "prettier --write --cache \"**/*.{js,jsx,md,yml}\"",
+    "lint": "eslint . "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@eslint/js": "^9.10.0",
+    "eslint": "^9.10.0",
+    "globals": "^15.9.0",
+    "lefthook": "^1.7.15",
+    "prettier": "3.3.3"
+  }
+}
